@@ -12,7 +12,7 @@ public class AddService2Test {
         AddService2 service = new AddService2();
         Result result = service.add(7, 3);
 
-        assertEquals(9,result.getResult());
+        assertEquals(10,result.getResult());
     }
 
     @Test
@@ -20,6 +20,6 @@ public class AddService2Test {
         AddService2 service = new AddService2();
         Result result = service.subtract(7, 3);
 
-        assertEquals(5,result.getResult());
+        assertEquals(4,result.getResult());
     }
 }
