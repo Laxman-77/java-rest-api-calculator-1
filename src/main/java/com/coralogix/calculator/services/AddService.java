@@ -9,4 +9,9 @@ public class AddService {
         int sum = a + b;
         return new Result(sum);
     }
+
+    public Result subtract(int a,int b){
+        int res = a - b;
+        return new Result(res);
+    }
 }
